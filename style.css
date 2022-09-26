@@ -1,0 +1,205 @@
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 500;
+}
+body .imgbox {
+  overflow: hidden;
+}
+body .imgbox img {
+  width: 100%;
+}
+
+section {
+  padding: 50px 0;
+}
+
+header {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #343436;
+  padding: 40px 0;
+}
+header h1 {
+  font-size: 30px;
+  color: #ffffff;
+}
+header a {
+  font-size: 20px;
+  margin-left: 20px;
+}
+header a:hover {
+  color: #cbff6b;
+  cursor: pointer;
+}
+header .icon {
+  color: #ffffff;
+  font-size: 20px;
+}
+@media screen and (max-width: 992px) {
+  header a {
+    display: none;
+  }
+  header .icon {
+    display: block;
+  }
+}
+@media screen and (min-width: 992px) {
+  header .icon {
+    display: none;
+  }
+  header a {
+    display: inline-block;
+  }
+}
+
+#start {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #1abc9c;
+}
+#start .imgbox {
+  width: 250px;
+}
+#start h1 {
+  font-size: 55px;
+  font-weight: 700;
+  margin-top: 30px;
+}
+#start .icon {
+  font-size: 30px;
+  margin: 30px 0;
+}
+#start h2 {
+  font-size: 20px;
+}
+
+#portfolio {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#portfolio h1 {
+  font-size: 35px;
+  font-weight: 700;
+}
+#portfolio .icon {
+  font-size: 25px;
+  margin: 20px;
+}
+#portfolio .box .imgbox {
+  width: 320px;
+  margin: 15px;
+  border-radius: 15px;
+  position: relative;
+}
+#portfolio .box .imgbox .overlay {
+  color: #fff;
+  background-color: #fff700;
+  font-size: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  transition: 0.1s;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  top: 0;
+}
+#portfolio .box .imgbox .overlay:hover {
+  opacity: 0.9;
+  cursor: pointer;
+}
+
+#about {
+  background-color: #1abc9c;
+  color: #ffffff;
+}
+#about h1 {
+  font-size: 40px;
+  font-weight: 700;
+  margin: 20px 0;
+}
+#about .icon {
+  font-size: 35px;
+}
+#about .textbox {
+  margin: 25px 0;
+  width: 200px;
+  font-size: 25px;
+  text-align: center;
+}
+#about .btn {
+  border: 1px solid #000000;
+  width: 200px;
+}
+#about .btn:hover {
+  background-color: #ffffff;
+}
+#about .btn .icon {
+  font-size: 20px;
+}
+#about .btn h2 {
+  font-size: 20px;
+  margin-left: 5px;
+}
+
+#contactme h1 {
+  font-size: 35px;
+}
+#contactme .icon {
+  font-size: 30px;
+  margin: 20px 0;
+}
+#contactme input {
+  border: 1px solid #d4d4d4;
+  width: 100%;
+  padding: 20px 50px;
+  font-size: 25px;
+  margin: 7px 0;
+}
+#contactme #message {
+  padding: 50px 50px;
+}
+#contactme .btn {
+  border: 1px solid #000000;
+  padding: 20px 40px;
+  background-color: #1abc9c;
+}
+#contactme .btn:hover {
+  background-color: #ffffff;
+}
+#contactme .btn h2 {
+  font-size: 25px;
+}
+
+footer {
+  background-color: #343436;
+  padding: 60px 0;
+  text-align: center;
+}
+footer h1 {
+  color: #ffffff;
+  font-size: 25px;
+  font-weight: 600;
+  margin: 20px 0;
+}
+footer p {
+  color: #ffffff;
+  font-size: 20px;
+  margin: 0 60px;
+  line-height: 1.5;
+}
+footer p span {
+  text-decoration: underline;
+  color: #2b2eff;
+}
+footer .icon {
+  color: #ffffff;
+  font-size: 25px;
+  margin-left: 6px;
+}
+footer h2 {
+  color: #ffffff;
+  font-size: 20px;
+  margin: 20px 0;
+}
+footer .son {
+  background-color: #2c3e50;
+}/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,27 @@
+header
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+    background-color: #343436
+    padding: 40px 0
+    h1
+        font-size: 30px
+        color: #ffffff
+    a
+        font-size: 20px
+        margin-left: 20px
+        &:hover
+            color: #cbff6b
+            cursor: pointer
+    .icon
+        color: #ffffff
+        font-size: 20px
+    @media  screen and (max-width: 992px)
+        a
+            display: none
+        .icon
+            display: block
+    @media  screen and (min-width: 992px)
+        .icon
+            display: none
+        a
+            display: inline-block 
+        
