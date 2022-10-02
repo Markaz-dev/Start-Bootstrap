@@ -53,7 +53,7 @@ header .icon {
 
 #start {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  background-color: #1abc9c;
+  background-color: #4efc79;
   color: #ffffff;
 }
 #start .imgbox {
@@ -109,7 +109,7 @@ header .icon {
 }
 
 #about {
-  background-color: #1abc9c;
+  background-color: #4efc79;
   color: #ffffff;
 }
 #about h1 {
@@ -165,15 +165,19 @@ header .icon {
   padding: 50px 50px;
 }
 #contactme .btn {
-  border: 1px solid #000000;
   padding: 20px 40px;
-  background-color: #1abc9c;
+  background-color: #4efc79;
 }
 #contactme .btn:hover {
   background-color: #ffffff;
+  border: 1px solid #000000;
+}
+#contactme .btn:hover h2 {
+  color: #000000;
 }
 #contactme .btn h2 {
   font-size: 25px;
+  color: #ffffff;
 }
 
 footer {
